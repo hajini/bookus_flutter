@@ -18,10 +18,10 @@ ThemeData theme() {
 
 TextTheme textTheme() {
   return TextTheme(
-    headline1: GoogleFonts.nanumGothic(fontSize: 18.0, fontWeight: FontWeight.bold),
-    headline2: GoogleFonts.nanumGothic(fontSize: 16.0, fontWeight: FontWeight.bold),
-    subtitle1: GoogleFonts.nanumGothic(fontSize: 16.0),
-    bodyText1: GoogleFonts.nanumGothic(fontSize: 15.0),
-    bodyText2: GoogleFonts.nanumGothic(fontSize: 14.0)
+    headline1: GoogleFonts.nanumGothic(fontSize: 18.0, color: Colors.black, fontWeight: FontWeight.bold),
+    headline2: GoogleFonts.nanumGothic(fontSize: 16.0, color: Colors.black, fontWeight: FontWeight.bold),
+    subtitle1: GoogleFonts.nanumGothic(fontSize: 16.0, color: Colors.black,),
+    bodyText1: GoogleFonts.nanumGothic(fontSize: 15.0, color: Colors.black,),
+    bodyText2: GoogleFonts.nanumGothic(fontSize: 14.0, color: Colors.black,)
   );
 }
